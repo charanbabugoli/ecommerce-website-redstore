@@ -1,0 +1,87 @@
+body{
+    margin: 150px;
+    padding: 150px;
+    /*------back ground image insert-------*/
+    background: url("https://t3.ftcdn.net/jpg/01/22/71/96/360_F_122719641_V0yw2cAOrfxsON3HeWi2Sf4iVxhv27QO.jpg");
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+/*---------------loginbox main code start---------------*/
+.loginbox{
+    width: 500px;
+    height: 600px;
+    border-radius: 5% ;
+    background: #fff;
+    color: #000;;
+    top: 50%;
+    left: 70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    /*------padding use cheydam valla give some space (login here) to head avatar ------*/
+    padding: 70px 30px;
+}
+/*-------------------loginbox image key symbol-------------*/
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px) ;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+/*------------loginbox font weight bold------------*/
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+/*-------------loginbox input space ---------------*/
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"], input[type="Password"]
+{
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #000;
+    font-size: 16px;
+}
+/*-------------loginbox login submit button color and height and font size increase-------------*/
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #000;
+    font-size: 18px;
+    /*------------login submit button circle shape-----------*/
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+/*------------------ using cursor tag ---------------*/
+{
+    cursor: pointer;
+    background: #0b7d1cf3;
+    color:#fff
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+
